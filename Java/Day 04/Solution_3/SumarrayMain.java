@@ -9,23 +9,14 @@ public class SumarrayMain {
 
         Sumarray[] avengers=new Sumarray[3];
 //        int i;
-        for (int i=0;i<3;i++)
+        for (int i=0;i<5;i++)
         {
             avengers[i]=new Sumarray();
-
-        }
-
-        for (int i=0;i<3;i++)
-        {
             avengers[i].getDetails();
             avengers[i].displayDetails();
 
         }
 
-//        for (int i=0;i<3;i++)
-//        {
-//            avengers[i].displayDetails();
-//        }
-
+        
     }
 }
